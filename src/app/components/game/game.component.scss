@@ -11,6 +11,25 @@
         background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2));
         backdrop-filter: blur(0.5rem);
         z-index: 2;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 15px;
+    }
+    .square{
+        width: 99%;
+        height: 99%;
+        border: 2px solid white;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+
+    .square:hover{
+        cursor: pointer;
+        background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2));
+        backdrop-filter: blur(0.4rem);
     }
     .circle1, .circle2{
         width: 10rem;
